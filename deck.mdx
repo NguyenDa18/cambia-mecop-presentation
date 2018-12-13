@@ -1,7 +1,11 @@
 export { code as theme } from 'mdx-deck/themes'
 
-import { Head } from 'mdx-deck'
+import { Head, Image, Appear } from 'mdx-deck'
 import { Split, SplitRight } from 'mdx-deck/layouts'
+
+import moment from 'moment'
+import Datepicker from 'react-datepicker'
+import Iframe from 'react-iframe'
 
 <Head>
     <title>2018 MECOP Presentation</title>
@@ -9,7 +13,80 @@ import { Split, SplitRight } from 'mdx-deck/layouts'
 
 # Cambia Health Solutions
 ## Danh Nguyen
+- 2nd MECOP Internship
+- DTS Consumer Web + Portal Intern
 
 ---
 
-# Second Slide
+# Company Info
+- History: Started from medical insurance pool by Oregon loggers
+- Hours: 40 hrs/week
+- Wages: $21/hr
+- No Overtime
+
+---
+
+# Interacted with Departments
+- DTS: Data Technology Solutions
+    - Consumer Web and Portal
+    - CTO Enterprise Engineering
+- ADIF (Fido Team)
+
+
+---
+
+# Internship Projects
+
+<Appear>
+    <li>Contentful POC: Sprint Demos and Annual Reports App</li>
+    <li>FastTrack Application: Datepickers and SBC Documents</li>
+    <li>Employer Center</li>
+</Appear>
+
+---
+
+# Effective Coverage Datepicker
+<Iframe url="https://codesandbox.io/embed/4w7ql4lvjw"
+    width="700px"
+    height="600px"
+    display="initial"
+    position="relative"
+    allowFullScreen
+/>
+
+---
+
+# Try it on the site!
+<Iframe url="https://www.shop.regence.com/individual/spa/demographics"
+    width="700px"
+    height="600px"
+    display="initial"
+    position="relative"
+    allowFullScreen
+/>
+
+
+---
+
+# SBC Documents
+<Iframe url="https://www.shop.regence.com/individual/spa/sbcdocuments"
+    width="800px"
+    height="600px"
+    display="initial"
+    position="relative"
+    allowFullScreen
+/>
+
+---
+
+# Learnings
+export default Split
+
+<Appear>
+    <li>Contentful Concepts + JavaScript API</li>
+    <li>Salesforce development + integration w/ Java client</li>
+    <li>Working with Ant and Struts</li>
+    <li>Agile Development</li>
+    <li>Health Insurance is complicated!</li>
+</Appear>
+
