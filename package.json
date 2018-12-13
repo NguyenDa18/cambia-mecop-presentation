@@ -1,0 +1,16 @@
+{
+  "name": "mecop-presentation",
+  "version": "1.0.0",
+  "description": "Presentation for 2nd MECOP internship w/ Cambia",
+  "main": "index.js",
+  "author": "Danh Nguyen",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx"
+  },
+  "dependencies": {
+    "mdx-deck": "^1.8.2"
+  }
+}
