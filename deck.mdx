@@ -103,9 +103,35 @@ export default Split
 
 <li>Learn + Integrate with Redux in FastTrack app</li>
 <li>Implement Open Enrollment + Special Enrollment logic</li>
+<li>Limit open-to-date and date range</li>
 <li>Resolve defects from UAT</li>
 <li>Birthday: replace age input with birthday datepicker</li>
 <li>Calculate age based on OE + SE logic</li>
+
+---
+
+### Open Enrollment + Special Enrollment Logic
+
+- Date Range
+2018 Pre-OE, within 60 days of 1/1
+Today’s date: 03/01/2018 
+Allowed years: 2017-2018
+
+2018 Pre-OE, after 60 days of 1/1
+Today’s date: 03/02/2018 
+Allowed years: 2018
+
+2019 OE
+Today’s date: 11/01/2018
+Allowed years: 2018-2019
+
+2019 Post-OE, within 60 days of 1/1
+Today’s date: 12/16/2018
+Allowed years: 2018-2019
+
+2019 Post-OE, after 60 days of 1/1
+Today’s date: 03/02/2019
+Allowed years: 2019
 
 
 ---
@@ -140,6 +166,7 @@ export default Split
 - Replaced 2000+ lines of hard coded values
 - Connect Struts backend with Salesforce API via SOAP
 - Learn Salesforce tech: Apex, SOQL, Developer Console
+- Deploy builds to dev and UAT Jenkins
 
 ---
 
